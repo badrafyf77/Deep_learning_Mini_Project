@@ -28,7 +28,10 @@ The results are displayed as a grouped bar chart comparing the total path cost f
 
 ## 📂 Project Structure
 ```
-├── data/
+├── poster/
+│ └── DL_Poster.pdf
+├── report/
+│ └── DL_Rapport.docx
 ├── src/
 │ └── deep-learning-mini-project.ipynb
 ├── results/
@@ -63,4 +66,5 @@ Optuna: Akiba, T., et al. (2019). Optuna: A Next-generation Hyperparameter Optim
 This project is released under the MIT License.
 
 Authors: AFYF Badreddine, CHABBAKI Ayman, AYAR Hanane
+
 Inspired by: Alexandre Le Mercier, Marco Dorigo, Mauro Birattari
