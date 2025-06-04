@@ -28,6 +28,7 @@ The results are displayed as a grouped bar chart comparing the total path cost f
 
 ## 📂 Project Structure
 ```
+├── docs/     #Website for the Visualisation of Ant Colony Optimisation
 ├── poster/
 │ └── DL_Poster.pdf
 ├── report/
