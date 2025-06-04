@@ -4,6 +4,56 @@ body {
   padding-bottom: 20px;
 }
 
+@media (max-width: 767.98px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #assets,
+  .col-lg-9,
+  .col-lg-3 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  #assets svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .form-horizontal .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-horizontal .form-group label {
+    margin-bottom: 0.5rem;
+    text-align: left !important;
+  }
+
+  .form-horizontal .form-group .col-sm-4,
+  .form-horizontal .form-group .col-sm-8,
+  .form-horizontal .form-group .col-sm-offset-4 {
+    flex: none;
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .well {
+    font-size: 14px;
+  }
+}
+
+
+
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
